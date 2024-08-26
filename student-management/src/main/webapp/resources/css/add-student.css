@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body{
+	background-image: url("/student-management/URLToReachImagesFolder/abc.jpg;")
+
+
+}
+.myFonts {
+    font-size: 24px;
+    font-family: Georgia, serif;
+ 
+}

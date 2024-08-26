@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+h1 {
+    color: rgb(128, 0, 0);
+    position: center;
+    margin-top: 150px; /* Adjust this value as needed */
+    font-size: 34px;
+    font-family: Arial Black;
+}
+
+.background-image {
+    background-image: url("/student-management/URLToReachImagesFolder/pngwing.png");
+    background-size: cover; /* Ensures the image covers the entire element */
+     /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    position: fixed; /* Keeps the background fixed */
+    top: 0; /* Aligns the background to the top */
+    left: 0; /* Aligns the background to the left */
+    z-index: -1; /* Places the background behind other content */
+}
+
+
+.myFonts {
+    font-size: 24px;
+    font-family: Arial Black;
+ 
+}
+
+.myButton{
+	color: white;
+	background-color: green;
+	border: 2px solid black;
+	font-size: 20px;
+	padding: 8px 8px 8px 8px;
+	transition-duration: 0.2s;
+}
+.myButton:hover{
+	background-color: yellow;
+	color:black;
+}
+
+.myTable{
+	width: 50%;
+	font-family: sans-serif; 
+}
+
+
